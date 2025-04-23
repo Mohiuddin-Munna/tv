@@ -3,22 +3,23 @@ const channels = [
   
       { 
         name: 'T Sports HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/200px-T_Sports_logo.svg.png', 
         url: 'https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
       { 
         name: 'T Sports HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/200px-T_Sports_logo.svg.png', 
         url: 'https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
-      { 
-        name: 'T Sports HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
-        url: 'http://kst.moonplex.net:8080/CH2/index.m3u8', 
-        category: ['Sport', 'Bangla','Bangladeshi'] 
-      },
+
+      // { 
+      //   name: 'T Sports HD', 
+      //   logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
+      //   url: 'http://kst.moonplex.net:8080/CH2/index.m3u8', 
+      //   category: ['Sport', 'Bangla','Bangladeshi'] 
+      // },
       { 
         name: 'TOFFEE LIVE',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_Toffee.svg/250px-Logo_of_Toffee.svg.png', 
