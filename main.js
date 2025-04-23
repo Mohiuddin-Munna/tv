@@ -391,24 +391,28 @@ const channels = [
         url: 'https://stream.spicefmbd.com/stream.m3u8', 
         category:  ['FM Radio', 'Bangladeshi','Bangla']
       },
-      { 
-        name: 'Banglavision', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Banglavision.svg/120px-Banglavision.svg.png',
-        url: 'http://38.96.178.201/live/BanglaVision/index.m3u8', 
-        category: ['Bangladeshi','Bangla'] 
-      },
-      { 
-        name: 'NTV TV', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/200px-NTV_%28Bangladesh%29_logo.svg.png',
-        url: 'http://38.96.178.201/live/NTV/index.m3u8', 
-        category: ['Bangladeshi','Bangla'] 
-      },
-      { 
-        name: 'Fox News', 
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg', 
-        url: 'https://example.com/foxnews.m3u8', 
-        category: 'News' 
-      },
+
+      // { 
+      //   name: 'Banglavision', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Banglavision.svg/120px-Banglavision.svg.png',
+      //   url: 'http://38.96.178.201/live/BanglaVision/index.m3u8', 
+      //   category: ['Bangladeshi','Bangla'] 
+      // },
+
+      // { 
+      //   name: 'NTV TV', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/200px-NTV_%28Bangladesh%29_logo.svg.png',
+      //   url: 'http://38.96.178.201/live/NTV/index.m3u8', 
+      //   category: ['Bangladeshi','Bangla'] 
+      // },
+
+      // { 
+      //   name: 'Fox News', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg', 
+      //   url: 'https://example.com/foxnews.m3u8', 
+      //   category: 'News' 
+      // },
+
   // Add more channels like this:
   // { name: 'Channel Name', logo: 'LOGO_URL', url: 'STREAM_URL', category: 'CATEGORY' },
 ];
