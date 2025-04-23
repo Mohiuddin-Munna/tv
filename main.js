@@ -336,12 +336,12 @@ const channels = [
         category: ['Entertainment', 'Hindi','Indian'] 
       },
 
-      // { 
-      //   name: 'ATN News', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
-      //   url: 'http://38.96.178.201/live/ATNNews/index.m3u8', 
-      //   category: ['Bangladeshi', 'Bangla','News'] 
-      // },
+      { 
+        name: 'ATN News', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
+        url: 'https://otttv.co.in/d2h/livestream/-pictures/manifest.mpd', 
+        category: ['Bangladeshi', 'Bangla','News'] 
+      },
 
       // { 
       //   name: 'ATN Bangla', 
