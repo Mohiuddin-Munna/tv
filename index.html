@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TMLBD Live TV Directory</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="tmlbd.live.png" alt="TMLBD Live Logo">
+      </a>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search..." oninput="showSuggestions(this.value)" autocomplete="off" />
+        <i class="fas fa-search search-icon"></i>
+        <div class="suggestions" id="suggestions"></div>
+      </div>
+    </div>
+  </header>
+  <nav class="category-tabs" id="categoryTabs"></nav>
+
+
+  <section id="playerContainer" style="display:none">
+    <h2 id="channelTitle"></h2>
+    <video id="videoPlayer" controls autoplay></video>
+  </section>
+  
+  <main id="mainContent"></main>
+
+  <footer>
+    <div>
+      <a href="faq.html">FAQ</a> |
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <p>© 2025 TMLBD Live All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
