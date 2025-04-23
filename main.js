@@ -330,10 +330,10 @@ const channels = [
       // },
 
       { 
-        name: 'Bangla TV', 
-        logo: 'https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png', 
-        url: 'https://bdixtv24.com/ayna/watch.php?id=addb7014-1d2e-41d8-982d-7cafbdc48770&format=.m3u8', 
-        category: ['Bangladeshi', 'Bangla','Entertainment '] 
+        name: 'Sony KAL HINDI', 
+        logo: 'https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/272825498_122916800248762_6540541318560007338_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=tS5MnBSN0FoQ7kNvwE-man8&_nc_oc=Adm8HQvE5nvFSrOls1qSV0Pxhe4mDBSudodEOWnweJgpowFIv65o-aIcP7hIQAHmZu8&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=Xj-Rq3FcTuLxdOSGkH4dTw&oh=00_AfGHChy0uOuXRqI4THArI5zJlO3fEgaQFYluDgP6uivBog&oe=680EAFFF', 
+        url: 'https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8', 
+        category: ['Entertainment', 'Hindi','Indian'] 
       },
 
       // { 
