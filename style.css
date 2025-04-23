@@ -225,6 +225,9 @@
       .search-bar {
         max-width: 50%;
       }
+      .category-tabs {
+        width: 100%;
+      }
     }
     @media (max-width: 1000px) {
       .channel-row {
