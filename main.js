@@ -176,12 +176,12 @@ const channels = [
       //   category: ['Entertainment', 'Movies', 'Drama','Indian','Bangla'] 
       // },
 
-      // { 
-      //   name: 'Zee Bangla HD', 
-      //   logo: 'http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg', 
-      //   url: 'http://kst.moonplex.net:8080/CH4/index.m3u8', 
-      //   category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
-      // },
+      { 
+        name: 'Zee Bangla', 
+        logo: 'http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg', 
+        url: 'https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8', 
+        category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
+      },
 
       // { 
       //   name: 'Jamuna TV', 
@@ -336,12 +336,12 @@ const channels = [
         category: ['Entertainment', 'Hindi','Indian'] 
       },
 
-      { 
-        name: 'ATN News', 
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
-        url: 'https://otttv.co.in/d2h/livestream/-pictures/manifest.mpd', 
-        category: ['Bangladeshi', 'Bangla','News'] 
-      },
+      // { 
+      //   name: 'ATN News', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
+      //   url: 'https://otttv.co.in/d2h/livestream/-pictures/manifest.mpd', 
+      //   category: ['Bangladeshi', 'Bangla','News'] 
+      // },
 
       // { 
       //   name: 'ATN Bangla', 
