@@ -178,7 +178,7 @@ const channels = [
 
       { 
         name: 'Zee Bangla', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg', 
+        logo: 'https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/zee-bangla-black.png', 
         url: 'https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8', 
         category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
       },
