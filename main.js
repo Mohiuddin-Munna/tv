@@ -10,16 +10,22 @@ const channels = [
       { 
         name: 'T Sports HD', 
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/200px-T_Sports_logo.svg.png', 
+        url: 'https://tv.mymoviebazar.net/stream/stream56.m3u8', 
+        category: ['Sport', 'Bangla','Bangladeshi'] 
+      },
+      { 
+        name: 'T Sports HD', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/200px-T_Sports_logo.svg.png', 
         url: 'https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
 
-      // { 
-      //   name: 'T Sports HD', 
-      //   logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
-      //   url: 'http://kst.moonplex.net:8080/CH2/index.m3u8', 
-      //   category: ['Sport', 'Bangla','Bangladeshi'] 
-      // },
+      { 
+        name: 'T Sports HD', 
+        logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
+        url: 'https://www.tbn24.com/api/video/4031_0.m3u8', 
+        category: ['Sport', 'Bangla','Bangladeshi'] 
+      },
 
       { 
         name: 'TOFFEE LIVE',
@@ -28,18 +34,41 @@ const channels = [
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
 
+      { 
+        name: 'Star Sports 1',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Star_Sports_1_HD.png/2560px-Star_Sports_1_HD.png', 
+        url: 'https://www.tbn24.com/api/video/4028_0.m3u8', 
+        category: ['Sport', 'Bangla','Bangladeshi'] 
+      },
+      { 
+        name: 'History Channel',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/250px-History_%282021%29.svg.png', 
+        url: 'https://tvs2.aynaott.com/historyen/tracks-v1a1/mono.m3u8', 
+        category: ['History', 'English','Documentary'] 
+      },
+      { 
+        name: 'PBS Kids',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/250px-PBS_Kids_logo_%282022%29.svg.png', 
+        url: 'https://tvs2.aynaott.com/pbskids/tracks-v1a1/mono.m3u8', 
+        category: ['English', 'Kids','Education'] 
+      },
+      { 
+        name: 'ABP Ananda',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/250px-ABP_Ananda_logo.svg.png', 
+        url: 'https://abplivetv.akamaized.net/hls/live/2043012/ananda//master.m3u8', 
+        category: ['News','Bangla', 'Indian'] 
+      },
+      { 
+        name: 'CBS News', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_GTV_%28Bangladesh%29.svg/250px-Logo_of_GTV_%28Bangladesh%29.svg.png', 
+        url: 'https://www.tbn24.com/api/video/4027_0.m3u8', 
+        category: ['News','English', 'International'] 
+      },
       // { 
       //   name: 'A SPORTS HD PSL-2025', 
       //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/A_Sports_Logo.png/250px-A_Sports_Logo.png', 
       //   url: 'http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8', 
       //   category: ['Sport', 'Pakistani', 'Urdu'] 
-      // },
-
-      // { 
-      //   name: 'Star Sports 1 HD', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/en/2/22/Star_Sports_Network_logo.png', 
-      //   url: 'http://kst.moonplex.net:8080/CH10/index.m3u8', 
-      //   category: ['Sport', 'Indian', 'Hindi'] 
       // },
 
       // { 
@@ -99,13 +128,6 @@ const channels = [
       // },
 
       // { 
-      //   name: 'Colors Bangla HD', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/250px-Colors_Bangla.png', 
-      //   url: 'http://38.96.178.201/live/ColorsBangla/index.m3u8', 
-      //   category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
-      // },
-
-      // { 
       //   name: 'National Geographic Wild', 
       //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/250px-National_Geographic_Wild_logo.svg.png', 
       //   url: 'http://88.212.15.29/live/test_ngw/playlist.m3u8', 
@@ -119,13 +141,19 @@ const channels = [
       //   category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
       // },
 
+      { 
+        name: 'Boishakhi TV', 
+        logo: 'https://en.wikipedia-on-ipfs.org/I/Boishakhi_TV_logo.svg.png.webp', 
+        url: 'https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8', 
+        category: ['Bangla','Entertainment', 'Movies','Bangladeshi'] 
+      },
 
-      // { 
-      //   name: 'Movie Bangla', 
-      //   logo: 'https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png', 
-      //   url: 'http://alvetv.com/moviebanglatv/8080/index.m3u8', 
-      //   category: ['Bangla','Entertainment', 'Movies','Bangladeshi'] 
-      // },
+      { 
+        name: 'Movie Bangla', 
+        logo: 'https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png', 
+        url: 'http://alvetv.com/moviebanglatv/8080/index.m3u8', 
+        category: ['Bangla','Entertainment', 'Movies','Bangladeshi'] 
+      },
 
       { 
         name: 'Mastiii Music', 
@@ -169,26 +197,26 @@ const channels = [
       //   category: ['Movies', 'Hindi','Indian'] 
       // },
 
-      // { 
-      //   name: 'Star Jalsha HD', 
-      //   logo: 'http://kst.moonplex.net/iptv/img/logo/star-jalsha.jpg', 
-      //   url: 'http://kst.moonplex.net:8080/CH3/index.m3u8', 
-      //   category: ['Entertainment', 'Movies', 'Drama','Indian','Bangla'] 
-      // },
+      { 
+        name: 'Enter 10 Bangla', 
+        logo: 'https://yt3.googleusercontent.com/ytc/AIdro_kUVgsElgaFpQZNYILWQ0HLa-MAmbEjWNRBRqKms5qML2Q=s160-c-k-c0x00ffffff-no-rj', 
+        url: 'https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8', 
+        category: ['Entertainment', 'Drama','Indian','Bangla'] 
+      },
 
       { 
-        name: 'Zee Bangla', 
-        logo: 'https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/zee-bangla-black.png', 
-        url: 'https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8', 
+        name: 'Colors Bangla HD', 
+        logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bengali_HD.png', 
+        url: 'https://www.tbn24.com/api/video/4041_0.m3u8', 
         category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
       },
 
-      // { 
-      //   name: 'Jamuna TV', 
-      //   logo: 'https://s3.aynaott.com/storage/7cf2b06797fbf033a81f5d253fd6adcb',
-      //   url: 'http://kst.moonplex.net:8080/CH5/index.m3u8', 
-      //   category: ['Bangladeshi','News', 'Bangla'] 
-      // },
+      { 
+        name: 'Jamuna TV', 
+        logo: 'https://s3.aynaott.com/storage/7cf2b06797fbf033a81f5d253fd6adcb',
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1701/output/1701.m3u8', 
+        category: ['Bangladeshi','News', 'Bangla'] 
+      },
 
       { 
         name: 'Channel 24', 
@@ -280,12 +308,12 @@ const channels = [
       //   category: ['Entertainment', 'Indian','Hindi']
       // },
 
-      // { 
-      //   name: 'Independent', 
-      //   logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png', 
-      //   url: 'http://38.96.178.201/live/Independent/index.m3u8', 
-      //   category: ['News','Bangladeshi', 'Bangla'] 
-      // },
+      { 
+        name: 'Independent TV', 
+        logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png', 
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1704/output/1704.m3u8', 
+        category: ['News','Bangladeshi', 'Bangla'] 
+      },
 
       // { 
       //   name: 'SATV', 
@@ -315,12 +343,36 @@ const channels = [
       //   category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
       // },
 
-      // { 
-      //   name: 'BTV', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/250px-Bangladesh_Television_Logo.svg.png', 
-      //   url: 'http://38.96.178.201/live/BTV/index.m3u8', 
-      //   category: ['Bangladeshi', 'Bangla'] 
-      // },
+      { 
+        name: 'BTV', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/250px-Bangladesh_Television_Logo.svg.png', 
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1709/output/index.m3u8', 
+        category: ['Bangladeshi', 'Bangla'] 
+      },
+      { 
+        name: 'Deshi TV', 
+        logo: 'https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png', 
+        url: 'https://deshitv.deshitv24.net/live/myStream/playlist.m3u8', 
+        category: ['Bangladeshi', 'Bangla'] 
+      },
+      { 
+        name: 'Ekushey TV', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Ekushey_Television_Logo.svg/200px-Ekushey_Television_Logo.svg.png', 
+        url: 'https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8', 
+        category: ['Bangladeshi', 'Bangla'] 
+      },
+      { 
+        name: 'Ananda TV', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Logo_of_Ananda_TV.svg/250px-Logo_of_Ananda_TV.svg.png', 
+        url: 'https://bdixtv24.com/ayna/watch.m3u8?id=a108c4e9-ccfa-42f2-8f8f-169ded28cca2&format=.m3u8', 
+        category: ['Bangla','Movies'] 
+      },
+      { 
+        name: 'Sananda TV', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/d/d0/Sananda_TV_Logo.jpg', 
+        url: 'https://live.sanonda.tv/sanonda/index.m3u8', 
+        category: ['Indian', 'Bangla','Movies'] 
+      },
       
       // { 
       //   name: 'Bijoy TV', 
@@ -336,19 +388,19 @@ const channels = [
         category: ['Entertainment', 'Hindi','Indian'] 
       },
 
-      // { 
-      //   name: 'ATN News', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
-      //   url: 'https://otttv.co.in/d2h/livestream/-pictures/manifest.mpd', 
-      //   category: ['Bangladeshi', 'Bangla','News'] 
-      // },
+      { 
+        name: 'ATN News', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1706/output/1706.m3u8', 
+        category: ['Bangladeshi', 'Bangla','News'] 
+      },
 
-      // { 
-      //   name: 'ATN Bangla', 
-      //   logo: 'http://www.atnbangla.tv/wp-content/uploads/2015/09/atn-bangla-logo-last.png', 
-      //   url: 'http://38.96.178.201/live/ATNBangla/index.m3u8', 
-      //   category: ['Bangladeshi', 'Bangla','Entertainment'] 
-      // },
+      { 
+        name: 'ATN Bangla', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_of_ATN_Bangla.svg/180px-Logo_of_ATN_Bangla.svg.png', 
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1722/output/1722.m3u8', 
+        category: ['Bangladeshi', 'Bangla','Entertainment'] 
+      },
 
       // { 
       //   name: 'Enterr10 Bangla',
@@ -392,26 +444,27 @@ const channels = [
         category:  ['FM Radio', 'Bangladeshi','Bangla']
       },
 
-      // { 
-      //   name: 'Banglavision', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Banglavision.svg/120px-Banglavision.svg.png',
-      //   url: 'http://38.96.178.201/live/BanglaVision/index.m3u8', 
-      //   category: ['Bangladeshi','Bangla'] 
-      // },
+      { 
+        name: 'Banglavision', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Banglavision.svg/120px-Banglavision.svg.png',
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1715/output/1715.m3u8', 
+        category: ['Bangladeshi','Bangla'] 
+      },
 
-      // { 
-      //   name: 'NTV TV', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/200px-NTV_%28Bangladesh%29_logo.svg.png',
-      //   url: 'http://38.96.178.201/live/NTV/index.m3u8', 
-      //   category: ['Bangladeshi','Bangla'] 
-      // },
+      { 
+        name: 'NTV', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/200px-NTV_%28Bangladesh%29_logo.svg.png',
+        url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1716/output/1716.m3u8', 
+        category: ['Bangladeshi','Bangla'] 
+      },
 
-      // { 
-      //   name: 'Fox News', 
-      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg', 
-      //   url: 'https://example.com/foxnews.m3u8', 
-      //   category: 'News' 
-      // },
+      { 
+        name: 'CBS News', 
+        logo: 'https://assets1.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1200x630/3c2876feb4b25922288eaeb0a1d6b8f0/247-key-channelthumbnail-1920x1080.jpg?v=edaea84d9f9990d3a4d8ddf0e6fb4e98', 
+        url: 'https://dai.google.com/linear/hls/pb/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/a95b01e7-7e37-4a5d-ac66-660a45b93c84:SIN/variant/c5978f1497cc006085b1a374230e90d9/bandwidth/1696996.m3u8', 
+        category: ['News','English', 'International'] 
+      },
+
 
   // Add more channels like this:
   // { name: 'Channel Name', logo: 'LOGO_URL', url: 'STREAM_URL', category: 'CATEGORY' },
