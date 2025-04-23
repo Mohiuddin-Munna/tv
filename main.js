@@ -27,156 +27,183 @@ const channels = [
         url: 'https://tv.bdixtv24.co/toffee/live.php?id=9b4b3941986a&e=.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
+
       // { 
       //   name: 'A SPORTS HD PSL-2025', 
       //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/A_Sports_Logo.png/250px-A_Sports_Logo.png', 
       //   url: 'http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8', 
       //   category: ['Sport', 'Pakistani', 'Urdu'] 
       // },
-      { 
-        name: 'Star Sports 1 HD', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/2/22/Star_Sports_Network_logo.png', 
-        url: 'http://kst.moonplex.net:8080/CH10/index.m3u8', 
-        category: ['Sport', 'Indian', 'Hindi'] 
-      },
-      { 
-        name: 'Ten Sports HD', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Ten_Sports_Logo.png/250px-Ten_Sports_Logo.png', 
-        url: 'http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8', 
-        category: ['Sport', 'Urdu','Pakistani'] 
-      },
-      { 
-        name: 'DD Sports', 
-        logo: 'https://upload.wikimedia.org/wikipedia/bn/thumb/1/1e/%E0%A6%A1%E0%A6%BF%E0%A6%A1%E0%A6%BF_%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%B8.jpeg/250px-%E0%A6%A1%E0%A6%BF%E0%A6%A1%E0%A6%BF_%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%B8.jpeg', 
-        url: 'http://38.96.178.201/live/DDSports/index.m3u8', 
-        category: ['Sport', 'English','Hindi', 'Indian'] 
-      },
-      { 
-        name: 'PTV Sports', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/PTV_Sports.png/250px-PTV_Sports.png', 
-        url: 'http://38.96.178.201/live/PTVSports/index.m3u8', 
-        category: ['Sport', 'English', 'pakistani', 'Urdu'] 
-      },
-      { 
-        name: 'Gazi TV', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_GTV_%28Bangladesh%29.svg/250px-Logo_of_GTV_%28Bangladesh%29.svg.png', 
-        url: 'http://38.96.178.201/live/GaziTV/index.m3u8', 
-        category: ['Sport', 'Bangla','Bangladeshi','Entertainment'] 
-      },
-      { 
-        name: 'Sangeet Bangla', 
-        logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Sangeet_Bangla.png', 
-        url: 'http://38.96.178.201/live/SangeetBangla/index.m3u8', 
-        category: ['Music', 'Bangla','Indian'] 
-      },
-      { 
-        name: 'Jalsha Movies HD', 
-        logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Jalsa_Movies_HD.png', 
-        url: 'http://38.96.178.201/live/JalshaMovies/index.m3u8', 
-        category: ['Indian', 'Bangla','Movies'] 
-      },
-      { 
-        name: 'Star Jalsha HD', 
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Star_Jalsha_logo_2023.png/250px-Star_Jalsha_logo_2023.png', 
-        url: 'http://38.96.178.201/live/STARJALSHA/index.m3u8', 
-        category: ['Indian', 'Bangla','Entertainment'] 
-      },
-      { 
-        name: 'Akash AATH', 
-        logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Aakaash_bangla.png', 
-        url: 'http://38.96.178.201/live/AkashAath/index.m3u8', 
-        category: ['Indian', 'Bangla','Entertainment', 'Movies'] 
-      },
-      { 
-        name: 'Colors Bangla HD', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/250px-Colors_Bangla.png', 
-        url: 'http://38.96.178.201/live/ColorsBangla/index.m3u8', 
-        category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
-      },
-      { 
-        name: 'National Geographic Wild', 
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/250px-National_Geographic_Wild_logo.svg.png', 
-        url: 'http://88.212.15.29/live/test_ngw/playlist.m3u8', 
-        category: ['English', 'Animals','Documentary','Nature'] 
-      },
-      { 
-        name: 'Sony AATH', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Sony_Aath_new.png/250px-Sony_Aath_new.png', 
-        url: 'http://38.96.178.201/live/SonyAath/index.m3u8', 
-        category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
-      },
-      { 
-        name: 'Movie Bangla', 
-        logo: 'https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png', 
-        url: 'http://alvetv.com/moviebanglatv/8080/index.m3u8', 
-        category: ['Bangla','Entertainment', 'Movies','Bangladeshi'] 
-      },
+
+      // { 
+      //   name: 'Star Sports 1 HD', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/2/22/Star_Sports_Network_logo.png', 
+      //   url: 'http://kst.moonplex.net:8080/CH10/index.m3u8', 
+      //   category: ['Sport', 'Indian', 'Hindi'] 
+      // },
+
+      // { 
+      //   name: 'Ten Sports HD', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Ten_Sports_Logo.png/250px-Ten_Sports_Logo.png', 
+      //   url: 'http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8', 
+      //   category: ['Sport', 'Urdu','Pakistani'] 
+      // },
+
+      // { 
+      //   name: 'DD Sports', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/bn/thumb/1/1e/%E0%A6%A1%E0%A6%BF%E0%A6%A1%E0%A6%BF_%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%B8.jpeg/250px-%E0%A6%A1%E0%A6%BF%E0%A6%A1%E0%A6%BF_%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%B8.jpeg', 
+      //   url: 'http://38.96.178.201/live/DDSports/index.m3u8', 
+      //   category: ['Sport', 'English','Hindi', 'Indian'] 
+      // },
+
+      // { 
+      //   name: 'PTV Sports', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/PTV_Sports.png/250px-PTV_Sports.png', 
+      //   url: 'http://38.96.178.201/live/PTVSports/index.m3u8', 
+      //   category: ['Sport', 'English', 'pakistani', 'Urdu'] 
+      // },
+
+      // { 
+      //   name: 'Gazi TV', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_GTV_%28Bangladesh%29.svg/250px-Logo_of_GTV_%28Bangladesh%29.svg.png', 
+      //   url: 'http://38.96.178.201/live/GaziTV/index.m3u8', 
+      //   category: ['Sport', 'Bangla','Bangladeshi','Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'Sangeet Bangla', 
+      //   logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Sangeet_Bangla.png', 
+      //   url: 'http://38.96.178.201/live/SangeetBangla/index.m3u8', 
+      //   category: ['Music', 'Bangla','Indian'] 
+      // },
+
+      // { 
+      //   name: 'Jalsha Movies HD', 
+      //   logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Jalsa_Movies_HD.png', 
+      //   url: 'http://38.96.178.201/live/JalshaMovies/index.m3u8', 
+      //   category: ['Indian', 'Bangla','Movies'] 
+      // },
+
+      // { 
+      //   name: 'Star Jalsha HD', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Star_Jalsha_logo_2023.png/250px-Star_Jalsha_logo_2023.png', 
+      //   url: 'http://38.96.178.201/live/STARJALSHA/index.m3u8', 
+      //   category: ['Indian', 'Bangla','Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'Akash AATH', 
+      //   logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/Aakaash_bangla.png', 
+      //   url: 'http://38.96.178.201/live/AkashAath/index.m3u8', 
+      //   category: ['Indian', 'Bangla','Entertainment', 'Movies'] 
+      // },
+
+      // { 
+      //   name: 'Colors Bangla HD', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/250px-Colors_Bangla.png', 
+      //   url: 'http://38.96.178.201/live/ColorsBangla/index.m3u8', 
+      //   category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
+      // },
+
+      // { 
+      //   name: 'National Geographic Wild', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/250px-National_Geographic_Wild_logo.svg.png', 
+      //   url: 'http://88.212.15.29/live/test_ngw/playlist.m3u8', 
+      //   category: ['English', 'Animals','Documentary','Nature'] 
+      // },
+
+      // { 
+      //   name: 'Sony AATH', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Sony_Aath_new.png/250px-Sony_Aath_new.png', 
+      //   url: 'http://38.96.178.201/live/SonyAath/index.m3u8', 
+      //   category: ['Indian', 'Bangla','Entertainment', 'Drama'] 
+      // },
+
+
+      // { 
+      //   name: 'Movie Bangla', 
+      //   logo: 'https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png', 
+      //   url: 'http://alvetv.com/moviebanglatv/8080/index.m3u8', 
+      //   category: ['Bangla','Entertainment', 'Movies','Bangladeshi'] 
+      // },
+
       { 
         name: 'Mastiii Music', 
         logo: 'https://a.jsrdn.com/hls/22973/mastiii/logo_20231219_215430_68.png', 
         url: 'https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8', 
         category: ['Music', 'Hindi','Indian'] 
       },
-      { 
-        name: 'Shemaroo', 
-        logo: 'https://www.thefilmcatalogue.com/assets/company-logos/337388/ShemarooLogoPnG.png', 
-        url: 'http://45.148.145.57/IN_StarGold2/index.m3u8', 
-        category: ['Music', 'Hindi','Indian', 'Movies', 'Entertainment'] 
-      },
+
+      // { 
+      //   name: 'Shemaroo', 
+      //   logo: 'https://www.thefilmcatalogue.com/assets/company-logos/337388/ShemarooLogoPnG.png', 
+      //   url: 'http://45.148.145.57/IN_StarGold2/index.m3u8', 
+      //   category: ['Music', 'Hindi','Indian', 'Movies', 'Entertainment'] 
+      // },
+
       { 
         name: 'Womens Sports', 
         logo: 'https://womenssports.com/wp-content/uploads/2024/07/smallWSNShortLogoFuego-1.png', 
         url: 'https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Fast-Studios-Womens-Sports.m3u8', 
         category: ['Sport', 'Urdu','Pakistani'] 
       },
+
       { 
         name: 'wild Earth', 
         logo: 'https://i0.wp.com/wildearth.tv/wp-content/uploads/2021/12/wildearth8729.jpg?fit=300%2C300&ssl=1',
         url: 'https://wildearth-plex.amagi.tv/master.m3u8', 
         category: ['Sport', 'Animals','English'] 
       },
+
       { 
         name: 'Redbull TV', 
         logo: 'https://img.redbull.com/images/w_250/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv-logo.png',
         url: 'https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8', 
         category: ['Sport', 'Music','Lifestyle','English', 'Documentary', 'Travel','Education','Entertainment'] 
       },
-      { 
-        name: 'Sony MAX HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/Sony_Max.png', 
-        url: 'http://kst.moonplex.net:8080/CH1/index.m3u8', 
-        category: ['Movies', 'Hindi','Indian'] 
-      },
-      { 
-        name: 'Star Jalsha HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/star-jalsha.jpg', 
-        url: 'http://kst.moonplex.net:8080/CH3/index.m3u8', 
-        category: ['Entertainment', 'Movies', 'Drama','Indian','Bangla'] 
-      },
-      { 
-        name: 'Zee Bangla HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg', 
-        url: 'http://kst.moonplex.net:8080/CH4/index.m3u8', 
-        category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
-      },
-      { 
-        name: 'Jamuna TV', 
-        logo: 'https://s3.aynaott.com/storage/7cf2b06797fbf033a81f5d253fd6adcb',
-        url: 'http://kst.moonplex.net:8080/CH5/index.m3u8', 
-        category: ['Bangladeshi','News', 'Bangla'] 
-      },
+
+      // { 
+      //   name: 'Sony MAX HD', 
+      //   logo: 'http://kst.moonplex.net/iptv/img/logo/Sony_Max.png', 
+      //   url: 'http://kst.moonplex.net:8080/CH1/index.m3u8', 
+      //   category: ['Movies', 'Hindi','Indian'] 
+      // },
+
+      // { 
+      //   name: 'Star Jalsha HD', 
+      //   logo: 'http://kst.moonplex.net/iptv/img/logo/star-jalsha.jpg', 
+      //   url: 'http://kst.moonplex.net:8080/CH3/index.m3u8', 
+      //   category: ['Entertainment', 'Movies', 'Drama','Indian','Bangla'] 
+      // },
+
+      // { 
+      //   name: 'Zee Bangla HD', 
+      //   logo: 'http://kst.moonplex.net/iptv/img/logo/zee-bangla.jpg', 
+      //   url: 'http://kst.moonplex.net:8080/CH4/index.m3u8', 
+      //   category: ['Entertainment', 'Bangla','Indian', 'Drama'] 
+      // },
+
+      // { 
+      //   name: 'Jamuna TV', 
+      //   logo: 'https://s3.aynaott.com/storage/7cf2b06797fbf033a81f5d253fd6adcb',
+      //   url: 'http://kst.moonplex.net:8080/CH5/index.m3u8', 
+      //   category: ['Bangladeshi','News', 'Bangla'] 
+      // },
+
       { 
         name: 'Channel 24', 
         logo: 'https://play-lh.googleusercontent.com/8cCl5EUWV51m3G8aG9CNgri7WCO0X0dIhUrDCyxtJfaqwtvq3N5RYCdfeyyV7s63iUo=w240-h480-rw',
         url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/master.m3u8', 
         category: ['Bangladeshi','News', 'Bangla'] 
       },
+
       { 
         name: 'Somoy TV', 
         logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/250px-SOMOY_TV_Logo.svg.png',
         url: 'https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1702/output/master.m3u8', 
         category: ['Bangladeshi','News', 'Bangla'] 
       },
+
       { 
         name: 'Eakttor TV HD', 
         logo: 'https://cdn.ekattor.online/contents/themes/public/style/images/logo.png', 
@@ -231,90 +258,105 @@ const channels = [
         url: 'https://news.cgtn.com/resource/live/english/cgtn-news.m3u8', 
         category: ['News','English', 'International']
       },
-      { 
-        name: 'Channel I', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Channel-i.svg/192px-Channel-i.svg.png', 
-        url: 'http://38.96.178.201/live/ChannelI/index.m3u8', 
-        category: ['Bangladeshi','Bangla', 'Entertainment']
-      },
-      { 
-        name: 'Disney Channel',
-        logo: 'https://www.disneyinternational.com/img/toplogo.png',
-        url: 'http://38.96.178.201/live/Disney/index.m3u8', 
-        category: ['Kids', 'English','Education']
-      },
-      { 
-        name: 'Sony Entertainment Television HD',
-        logo: 'https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png',
-        url: 'http://38.96.178.201/live/SonyHD/index.m3u8', 
-        category: ['Entertainment', 'Indian','Hindi']
-      },
-      { 
-        name: 'Independent', 
-        logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png', 
-        url: 'http://38.96.178.201/live/Independent/index.m3u8', 
-        category: ['News','Bangladeshi', 'Bangla'] 
-      },
-      { 
-        name: 'SATV', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/1/15/SA_TV_Logo.png', 
-        url: 'http://38.96.178.201/live/SATV/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
-      },
-      { 
-        name: 'Ekhon TV', 
-        logo: 'https://ekhon.tv/logo.png', 
-        url: 'http://38.96.178.201/live/EkhonTV/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
-      },
-      { 
-        name: 'Channel S', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Channel_S_Bangladesh_Logo.png/250px-Channel_S_Bangladesh_Logo.png', 
-        url: 'http://38.96.178.201/live/ChannelS/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
-      },
-      { 
-        name: 'Channel 9', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/250px-Channel9_bd.svg.png', 
-        url: 'http://38.96.178.201/live/Channel9/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
-      },
-      { 
-        name: 'BTV', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/250px-Bangladesh_Television_Logo.svg.png', 
-        url: 'http://38.96.178.201/live/BTV/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla'] 
-      },
-      { 
-        name: 'Bijoy TV', 
-        logo: 'https://bijoy.tv/wp-content/uploads/2024/01/logo.gif', 
-        url: 'http://38.96.178.201/live/BijoyTV/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla','Entertainment '] 
-      },
-      { 
-        name: 'Bangla TV', 
-        logo: 'https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png', 
-        url: 'http://38.96.178.201/live/BanglaTV/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla','Entertainment '] 
-      },
-      { 
-        name: 'ATN News', 
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
-        url: 'http://38.96.178.201/live/ATNNews/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla','News'] 
-      },
-      { 
-        name: 'ATN Bangla', 
-        logo: 'http://www.atnbangla.tv/wp-content/uploads/2015/09/atn-bangla-logo-last.png', 
-        url: 'http://38.96.178.201/live/ATNBangla/index.m3u8', 
-        category: ['Bangladeshi', 'Bangla','Entertainment'] 
-      },
-      { 
-        name: 'Enterr10 Bangla',
-        logo: 'https://upload.wikimedia.org/wikipedia/bn/c/c9/%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%A7%E0%A7%A6_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%9F%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.jpeg', 
-        url: 'http://kst.moonplex.net:8080/CH11/index.m3u8', 
-        category: ['Entertainment', 'Indian', 'Drama','Bangla']
-      },
+
+      // { 
+      //   name: 'Channel I', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Channel-i.svg/192px-Channel-i.svg.png', 
+      //   url: 'http://38.96.178.201/live/ChannelI/index.m3u8', 
+      //   category: ['Bangladeshi','Bangla', 'Entertainment']
+      // },
+
+      // { 
+      //   name: 'Disney Channel',
+      //   logo: 'https://www.disneyinternational.com/img/toplogo.png',
+      //   url: 'http://38.96.178.201/live/Disney/index.m3u8', 
+      //   category: ['Kids', 'English','Education']
+      // },
+
+      // { 
+      //   name: 'Sony Entertainment Television HD',
+      //   logo: 'https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png',
+      //   url: 'http://38.96.178.201/live/SonyHD/index.m3u8', 
+      //   category: ['Entertainment', 'Indian','Hindi']
+      // },
+
+      // { 
+      //   name: 'Independent', 
+      //   logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png', 
+      //   url: 'http://38.96.178.201/live/Independent/index.m3u8', 
+      //   category: ['News','Bangladeshi', 'Bangla'] 
+      // },
+
+      // { 
+      //   name: 'SATV', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/1/15/SA_TV_Logo.png', 
+      //   url: 'http://38.96.178.201/live/SATV/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
+      // },
+      
+      // { 
+      //   name: 'Ekhon TV', 
+      //   logo: 'https://ekhon.tv/logo.png', 
+      //   url: 'http://38.96.178.201/live/EkhonTV/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'Channel S', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Channel_S_Bangladesh_Logo.png/250px-Channel_S_Bangladesh_Logo.png', 
+      //   url: 'http://38.96.178.201/live/ChannelS/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'Channel 9', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/250px-Channel9_bd.svg.png', 
+      //   url: 'http://38.96.178.201/live/Channel9/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla', 'Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'BTV', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/250px-Bangladesh_Television_Logo.svg.png', 
+      //   url: 'http://38.96.178.201/live/BTV/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla'] 
+      // },
+      
+      // { 
+      //   name: 'Bijoy TV', 
+      //   logo: 'https://bijoy.tv/wp-content/uploads/2024/01/logo.gif', 
+      //   url: 'http://38.96.178.201/live/BijoyTV/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla','Entertainment '] 
+      // },
+
+      // { 
+      //   name: 'Bangla TV', 
+      //   logo: 'https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png', 
+      //   url: 'http://38.96.178.201/live/BanglaTV/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla','Entertainment '] 
+      // },
+
+      // { 
+      //   name: 'ATN News', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ATN_News_logo.svg/120px-ATN_News_logo.svg.png', 
+      //   url: 'http://38.96.178.201/live/ATNNews/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla','News'] 
+      // },
+
+      // { 
+      //   name: 'ATN Bangla', 
+      //   logo: 'http://www.atnbangla.tv/wp-content/uploads/2015/09/atn-bangla-logo-last.png', 
+      //   url: 'http://38.96.178.201/live/ATNBangla/index.m3u8', 
+      //   category: ['Bangladeshi', 'Bangla','Entertainment'] 
+      // },
+
+      // { 
+      //   name: 'Enterr10 Bangla',
+      //   logo: 'https://upload.wikimedia.org/wikipedia/bn/c/c9/%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%A7%E0%A7%A6_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%9F%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.jpeg', 
+      //   url: 'http://kst.moonplex.net:8080/CH11/index.m3u8', 
+      //   category: ['Entertainment', 'Indian', 'Drama','Bangla']
+      // },
+
       { 
         name: 'Deepto TV', 
         logo: 'https://jcwsw2vt33.gpcdn.net/uploads/images/2022/07/25/logos_1384ea456744d5914ba331fa72df78c8_goplay_deepto_logo_final_white.svg',
