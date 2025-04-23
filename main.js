@@ -329,12 +329,12 @@ const channels = [
       //   category: ['Bangladeshi', 'Bangla','Entertainment '] 
       // },
 
-      // { 
-      //   name: 'Bangla TV', 
-      //   logo: 'https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png', 
-      //   url: 'http://38.96.178.201/live/BanglaTV/index.m3u8', 
-      //   category: ['Bangladeshi', 'Bangla','Entertainment '] 
-      // },
+      { 
+        name: 'Bangla TV', 
+        logo: 'https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png', 
+        url: 'https://bdixtv24.com/ayna/watch.php?id=addb7014-1d2e-41d8-982d-7cafbdc48770&format=.m3u8', 
+        category: ['Bangladeshi', 'Bangla','Entertainment '] 
+      },
 
       // { 
       //   name: 'ATN News', 
