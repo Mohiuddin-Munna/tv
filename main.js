@@ -22,7 +22,7 @@ const channels = [
 
       { 
         name: 'T Sports HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/t-sports.jpg', 
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/200px-T_Sports_logo.svg.png', 
         url: 'https://www.tbn24.com/api/video/4031_0.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
