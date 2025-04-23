@@ -363,24 +363,28 @@ const channels = [
         url: 'https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8', 
         category: ['Entertainment', 'Bangla','Bangladeshi', 'Drama'] 
       },
+
+      // { 
+      //   name: 'Duronto TV HD', 
+      //   logo: 'http://kst.moonplex.net/iptv/img/logo/duronto-tv.jpg', 
+      //   url: 'http://kst.moonplex.net:8080/CH12/index.m3u8', 
+      //   category: ['Kids', 'Bangla','Bangladeshi']
+      // },
+
+      // { 
+      //   name: '9XM',
+      //   logo: 'https://logos-download.com/wp-content/uploads/2020/06/9XM_Logo-700x406.png', 
+      //   url: 'http://kst.moonplex.net:8080/CH13/index.m3u8', 
+      //   category: ['Music', 'Hindi','Indian'] 
+      // },
+
       { 
-        name: 'Duronto TV HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/duronto-tv.jpg', 
-        url: 'http://kst.moonplex.net:8080/CH12/index.m3u8', 
-        category: ['Kids', 'Bangla','Bangladeshi']
-      },
-      { 
-        name: '9XM',
-        logo: 'https://logos-download.com/wp-content/uploads/2020/06/9XM_Logo-700x406.png', 
-        url: 'http://kst.moonplex.net:8080/CH13/index.m3u8', 
-        category: ['Music', 'Hindi','Indian'] 
-      },
-      { 
-        name: 'Al Jazeera HD', 
-        logo: 'http://kst.moonplex.net/iptv/img/logo/Al-Jazeera.png', 
+        name: 'Al Jazeera English', 
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/250px-Aljazeera_eng.svg.png', 
         url: 'https://live-hls-web-aje.getaj.net/AJE/01.m3u8', 
         category: ['News','English', 'International']
       },
+      
       { 
         name: '96.4 Spice FM',
         logo: 'https://i.ibb.co/4mjS8hB/download-1.png', 
