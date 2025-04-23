@@ -20,18 +20,19 @@ const channels = [
       //   url: 'http://kst.moonplex.net:8080/CH2/index.m3u8', 
       //   category: ['Sport', 'Bangla','Bangladeshi'] 
       // },
+
       { 
         name: 'TOFFEE LIVE',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_Toffee.svg/250px-Logo_of_Toffee.svg.png', 
         url: 'https://tv.bdixtv24.co/toffee/live.php?id=9b4b3941986a&e=.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
-      { 
-        name: 'A SPORTS HD PSL-2025', 
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/A_Sports_Logo.png/250px-A_Sports_Logo.png', 
-        url: 'http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8', 
-        category: ['Sport', 'Pakistani', 'Urdu'] 
-      },
+      // { 
+      //   name: 'A SPORTS HD PSL-2025', 
+      //   logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/A_Sports_Logo.png/250px-A_Sports_Logo.png', 
+      //   url: 'http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8', 
+      //   category: ['Sport', 'Pakistani', 'Urdu'] 
+      // },
       { 
         name: 'Star Sports 1 HD', 
         logo: 'https://upload.wikimedia.org/wikipedia/en/2/22/Star_Sports_Network_logo.png', 
