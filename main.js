@@ -642,6 +642,10 @@ if (url.endsWith('.m3u8') && Hls.isSupported()) {
 } else {
   alert('Your browser does not support this stream format');
 }
+
+// ✅ Popunder Adsterra স্ক্রিপ্ট কল
+loadPopunderAd();
+
 }
 
 generateTabs();
