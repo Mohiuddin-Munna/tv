@@ -200,7 +200,7 @@ const channels = [
       { 
         name: 'Enter 10 Bangla', 
         logo: 'https://yt3.googleusercontent.com/ytc/AIdro_kUVgsElgaFpQZNYILWQ0HLa-MAmbEjWNRBRqKms5qML2Q=s160-c-k-c0x00ffffff-no-rj', 
-        url: 'https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8', 
+        url: 'https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8', 
         category: ['Entertainment', 'Drama','Indian','Bangla'] 
       },
 
