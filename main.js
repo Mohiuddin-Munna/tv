@@ -30,7 +30,7 @@ const channels = [
       { 
         name: 'TOFFEE LIVE',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_Toffee.svg/250px-Logo_of_Toffee.svg.png', 
-        url: 'https://tv.bdixtv24.co/toffee/live.php?id=9b4b3941986a&e=.m3u8', 
+        url: 'https://tv.bdixtv24.com/toffee/live.php?id=9b4b3941986a&e=.m3u8', 
         category: ['Sport', 'Bangla','Bangladeshi'] 
       },
 
